@@ -31,6 +31,7 @@ let job2 = "programmer";
 console.log(myFirstJob);
 */
 
+/*
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
@@ -53,3 +54,23 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null); //prints object, which is a bug left for legacy reasons
+*/
+
+let age = 30;
+age = 31; //"mutate" a variable
+
+const birthYear = 1991;
+// birthYear = 1990; // Error
+
+// const job;  //error
+// Use const when possible
+
+//var - old way, don't use
+
+var job = 'programmer';
+job = 'teacher';
+// let is block scoped and var is function scoped
+
+//Don't have to declare variables:
+lastName = 'Cass'; //GLOBAL!!
+console.log(lastName)
