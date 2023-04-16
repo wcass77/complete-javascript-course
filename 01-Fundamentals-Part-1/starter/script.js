@@ -24,4 +24,4 @@ let myCurrentJob = "programmer";
 let job1 = "teacher";
 let job2 = "programmer";
 
-console.log(MediaQueryListEvent);
+console.log(myFirstJob);
