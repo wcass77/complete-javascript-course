@@ -88,7 +88,7 @@ console.log(ageJonas / 10, 2 ** 3);
 const firstName = 'Willy';
 const lastName = 'Cass';
 console.log(firstName + ' ' + lastName);
-
+/*
 //assignment operators
 let x = 10 + 5;
 console.log(x);
@@ -98,7 +98,7 @@ x++; //x = x + 1
 x--;
 x--;
 console.log(x);
-
+*/
 //comparison operators
 console.log(ageJonas > ageSarah);
 console.log(ageSarah >= 18);
@@ -106,3 +106,13 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018); //same as line 103
+
+
+//Order of operations
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
