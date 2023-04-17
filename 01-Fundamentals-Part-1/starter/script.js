@@ -76,7 +76,7 @@ job = 'teacher';
 lastName = 'Cass'; //GLOBAL!!
 console.log(lastName)
 */
-
+/*
 const now = 2037
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -88,7 +88,7 @@ console.log(ageJonas / 10, 2 ** 3);
 const firstName = 'Willy';
 const lastName = 'Cass';
 console.log(firstName + ' ' + lastName);
-/*
+
 //assignment operators
 let x = 10 + 5;
 console.log(x);
@@ -98,7 +98,7 @@ x++; //x = x + 1
 x--;
 x--;
 console.log(x);
-*/
+
 //comparison operators
 console.log(ageJonas > ageSarah);
 console.log(ageSarah >= 18);
@@ -116,3 +116,24 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+*/
+
+////////////////
+// Coding Challenge # 1
+
+//1.
+const markHeight = 1.88;
+const markWeight = 95;
+const johnHeight = 1.76;
+const johnWeight = 85;
+
+//2.
+const markBMI = markWeight / markHeight ** 2;
+const johnBMI = johnWeight / (johnHeight * johnHeight);
+
+console.log(markBMI, johnBMI);
+
+//3.
+const markHigherBMI = markBMI > johnBMI;
+
+console.log(markHigherBMI);
