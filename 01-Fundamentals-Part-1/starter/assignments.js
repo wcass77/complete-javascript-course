@@ -21,3 +21,10 @@ console.log(typeof language);
 //Assignment 3
 language = 'english';
 //country = 'Canada'; //ERROR
+
+//Assignment 4
+console.log(population / 2); //#1
+console.log(++population); //#2
+console.log(population > 6 * 10 ** 6); //#3
+console.log(population < 33 * 10 ** 6); //#4
+console.log(country + ' is in ' + continent + ', and its ' + --population / (10 ** 6) + ' million people speak ' + language);
