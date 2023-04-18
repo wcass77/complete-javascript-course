@@ -117,7 +117,7 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
-
+/*
 ////////////////
 // Coding Challenge # 1
 
@@ -137,3 +137,16 @@ console.log(markBMI, johnBMI);
 const markHigherBMI = markBMI > johnBMI;
 
 console.log(markHigherBMI);
+*/
+
+const firstName = 'Willy';
+const lastName = 'Cass';
+const job = 'surgeon';
+const birthYear = 1985;
+const year = 2022;
+
+const willy = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(willy);
+
+const willyNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+console.log(willyNew);
