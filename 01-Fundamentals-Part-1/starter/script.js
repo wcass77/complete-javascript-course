@@ -138,7 +138,7 @@ const markHigherBMI = markBMI > johnBMI;
 
 console.log(markHigherBMI);
 */
-
+/*
 const firstName = 'Willy';
 const lastName = 'Cass';
 const job = 'surgeon';
@@ -150,3 +150,21 @@ console.log(willy);
 
 const willyNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
 console.log(willyNew);
+*/
+
+const age = 19;
+
+if (age >= 18) {
+    console.log('Sarah is old enough 🥳');
+} else {
+    console.log(`Sarah has to wait ${18 - age} years`);
+}
+
+const birthYear = 1991;
+let century;
+if (birthYear < 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
