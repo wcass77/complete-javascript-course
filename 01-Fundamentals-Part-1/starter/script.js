@@ -151,7 +151,7 @@ console.log(willy);
 const willyNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
 console.log(willyNew);
 */
-
+/*
 const age = 19;
 
 if (age >= 18) {
@@ -168,3 +168,31 @@ if (birthYear < 2000) {
     century = 21;
 }
 console.log(century);
+*/
+
+// Coding challenge 2
+const markHeight = 1.88;
+const markWeight = 95;
+const johnHeight = 1.76;
+const johnWeight = 85;
+
+//1.
+const markBMI = markWeight / markHeight ** 2;
+const johnBMI = johnWeight / (johnHeight * johnHeight);
+
+if (markBMI > johnBMI) {
+    console.log("Mark has a higher BMI")
+} else if (johnBMI > markBMI) {
+    console.log("John has a higher BMI")
+} else {
+    console.log("They have the same BMI")
+}
+
+//2.
+if (markBMI > johnBMI) {
+    console.log(`Mark (BMI ${markBMI}) has a higher BMI than John (BMI ${johnBMI})`);
+} else if (johnBMI > markBMI) {
+    console.log(`John (BMI ${johnBMI}) has a higher BMI than Mark (BMI ${markBMI})`);
+} else {
+    console.log(`They have the same BMI: ${markBMI}`);
+}
