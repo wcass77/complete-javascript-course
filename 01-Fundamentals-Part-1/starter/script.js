@@ -169,7 +169,7 @@ if (birthYear < 2000) {
 }
 console.log(century);
 */
-
+/*
 // Coding challenge 2
 const markHeight = 1.88;
 const markWeight = 95;
@@ -195,4 +195,27 @@ if (markBMI > johnBMI) {
     console.log(`John (BMI ${johnBMI}) has a higher BMI than Mark (BMI ${markBMI})`);
 } else {
     console.log(`They have the same BMI: ${markBMI}`);
+}
+*/
+
+// Double vs. Triple equal
+const age = 18;
+if (age === 18) console.log('You just turned 18!');  //Works
+if (age === '18') console.log('You just turned 18!'); //DOESN't WORK
+if (age == '18') console.log('You just turned 18!');  //Works
+if (age == 18) console.log('You just turned 18!');  //Works
+//Generally, avoid '==' can cause hard to find bugs
+
+let favorite = prompt('What is your favorite number?');
+console.log(favorite, typeof favorite);
+if (favorite == 7) console.log('Good Choice!')
+if (Number(favorite) === 7) console.log('Good Choice!')
+//second one is preferred
+
+if (favorite === '23') {
+    console.log('1st');
+} else if (favorite === '7') {
+    console.log('2nd');
+} else if (favorite !== '6') {
+    console.log('why not 6?');
 }
