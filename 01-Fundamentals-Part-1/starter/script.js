@@ -197,7 +197,7 @@ if (markBMI > johnBMI) {
     console.log(`They have the same BMI: ${markBMI}`);
 }
 */
-
+/*
 // Double vs. Triple equal
 const age = 18;
 if (age === 18) console.log('You just turned 18!');  //Works
@@ -218,4 +218,68 @@ if (favorite === '23') {
     console.log('2nd');
 } else if (favorite !== '6') {
     console.log('why not 6?');
+}
+*/
+
+// Coding Challenge 3
+
+//Test Data 1
+const dolphinsGame1 = 96;
+const dolphinsGame2 = 108;
+const dolphinsGame3 = 89;
+const koalasGame1 = 88;
+const koalasGame2 = 91;
+const koalasGame3 = 110;
+
+//Test Data 2
+// const dolphinsGame1 = 97;
+// const dolphinsGame2 = 112;
+// const dolphinsGame3 = 101;
+// const koalasGame1 = 109;
+// const koalasGame2 = 95;
+// const koalasGame3 = 123;
+
+//Test Data 3
+// const dolphinsGame1 = 97;
+// const dolphinsGame2 = 112;
+// const dolphinsGame3 = 101;
+// const koalasGame1 = 109;
+// const koalasGame2 = 95;
+// const koalasGame3 = 106;
+
+//1
+const dolphinsAvg = (dolphinsGame1 + dolphinsGame2 + dolphinsGame3) / 3;
+const koalasAvg = (koalasGame1 + koalasGame2 + koalasGame3) / 3;
+console.log(`Dolphins Average: ${dolphinsAvg}\n Koalas Average: ${koalasAvg}\n`);
+
+//2
+if (dolphinsAvg > koalasAvg) {
+    console.log('Dolphins win!');
+} else if (koalasAvg > dolphinsAvg) {
+    console.log('Koalas win!');
+} else if (koalasAvg === dolphinsAvg) {
+    console.log("It's a tie!");
+} else {
+    console.log("Unexpected result")
+}
+//3  BONUS
+if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
+    console.log('Dolphins win!');
+} else if (koalasAvg > dolphinsAvg && koalasAvg >= 100) {
+    console.log('Koalas win!');
+} else if (koalasAvg === dolphinsAvg) {
+    console.log("It's a tie!");
+} else {
+    console.log("No winner!")
+}
+
+//4  BONUS
+if (dolphinsAvg > koalasAvg && dolphinsAvg >= 100) {
+    console.log('Dolphins win!');
+} else if (koalasAvg > dolphinsAvg && koalasAvg >= 100) {
+    console.log('Koalas win!');
+} else if (koalasAvg === dolphinsAvg && dolphinsAvg >= 100 && koalasAvg >= 100) {
+    console.log("It's a tie!");
+} else {
+    console.log("No winner!")
 }
